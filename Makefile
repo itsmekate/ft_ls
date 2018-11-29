@@ -10,9 +10,12 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = a.out
+NAME = ft_ls
 
-SRCS = main.c flags.c\
+SRCS = main.c \
+flags.c \
+print_directory.c \
+sort_directory.c \
 
 OBJ = $(SRCS:.c=.o)
 
